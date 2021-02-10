@@ -15,7 +15,6 @@ app.on('ready', () => {
     icon: __dirname + '../public/Images/todo_icon.ico',
 
   });
-  window.webContents.openDevTools();
   window.loadURL(entryUrl);
   window.on('closed', () => window = null);
 });
@@ -25,5 +24,3 @@ app.on('window-all-closed', () => {
     app.quit();
   }
 });
-const Store = require('electron-store');
-Store.initRenderer();

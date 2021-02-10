@@ -18,7 +18,7 @@ const Todo = ({todo, setTodos, todos, display}) => {
     let handleDelete = (e) => {
         let todo_item = e.target.parentElement
         let id = todo_item.getAttribute("id");
-        setTodos((todos.filter(todo => todo.id != id))));
+        setTodos((todos.filter(todo => todo.id != id)));
      }
 
     return (

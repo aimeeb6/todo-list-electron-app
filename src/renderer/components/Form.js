@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = ({ todos , setTodos }) => {
+const Form = ({ todos , setTodos, setFilter }) => {
 
   const inputTextHandler = (e) => {
     e.preventDefault();
