@@ -2,6 +2,10 @@
 
 This is a light-weight to do app built with electron and react. You can add and delete todos as well as filter by completed and non completed status. 
 
+<p align="center">
+<img src='https://github.com/aimeeb6/todo-list-electron-app/blob/main/src/public/Images/TodolistScreenShot.png'/>
+</p>
+
 ## How to use
 
 You should install the dependencies like this:
